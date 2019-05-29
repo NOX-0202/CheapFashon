@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+    h3{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h2{
+        color: #5e5e5e;
+    }
+
+    form{
+        font-family: 'Montserrat', sans-serif;
+        margin: 3% 35%;
+    }
+
+    input{
+        background: #5e5e5e;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        margin:8px 5%;
+        color: #FFFFFF;
+        height: 30px;
+        font-size: 15pt;
+    }
+
+    fieldset{
+        border-radius: 20px;
+    }
+
+
+    #masculino, #feminino{
+        margin: 0 0 0 5%;
+    }
+
+    fieldset#sexo{
+        padding: 0;
+        margin: 5px;
+    }
+
+    input#botao{
+        background-color: black;
+        color: #FFFFFF;
+        font-weight: bolder;
+        border: none;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    input#botao:hover{
+        background-color: #888888;
+    }
+
+    span{
+        font-size: 8pt;
+        color: #888888;
+    }

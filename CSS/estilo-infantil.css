@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+div#main-container-child{
+    margin: 5% 9%;
+}
+
+div#header{
+    background-color: #5e5e5e;
+    margin: 2% 0;
+}
+
+img#imagem-top{
+    margin: 0 0 0 27%;
+    height: 400px;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+

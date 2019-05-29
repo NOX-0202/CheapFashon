@@ -1,0 +1,54 @@
+    img#main {
+        margin: 0 37%;
+        position: relative;
+        height: 450px;
+    }
+
+    figure{
+        margin: 2% 0;
+        background: url("../Imagens-index/back-container.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+                display: flex;
+        justify-content: center;
+    }
+
+    table{
+        margin: 0 7%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    td:hover{
+        border: 2px solid #888888;
+    }
+
+    em{
+        color: blue;
+        font-weight: bolder;
+    }
+
+    del{
+        text-decoration: line-through;
+        font-weight: bold;
+        color:red;
+    }
+
+
+
+    /* Contents */
+
+    div#main-container {
+        margin: 2% 22%;
+    }
+
+    @media (max-width: 800px) {
+
+        div#main-container{
+            margin: 0 auto;
+        }
+    }
+
+    span{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15pt;
+    }

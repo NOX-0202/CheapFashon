@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>CHEAP&FASHON|Roupas em geral</title>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="Imagens-index/favicon.jpg"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/estilo-form.css">
+    <script src="functions.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <a href="index.html" id="logo">CHEAP&FASHION</a>
+            </div>
+            <ul id="main-list">
+                <li class="filho-main-list"><a href="masculino.html">Masculino</a></li>
+                <li class="filho-main-list"><a href="feminino.html">Feminino</a></li>
+                <li class="filho-main-list"><a href="infantil.html">Infantil</a></li>
+                <li class="filho-main-list"><a href="form.html">Registrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    	<div id="main-form-content">
+          <h2 style="margin: 2% 25% 0 25%">PREENCHA SEUS DADOS:</h2>
+    		<form method="post">
+                <label for="nome">Nome:<br/>
+                    <input type="text" name="Nome" id="nome" size="30" width="50"/></label><br/>
+                <label for="Snome">Sobrenome:<br/>
+                    <input type="text" name="Snome" id="Snome" size="30"/></label><br/>
+                <label for="idade">Idade: <span>Maior de 18 anos</span><br>
+                    <input type="date" name="idade" id="idade" min="1"></label><br>
+            <fieldset id="sexo"><legend style="margin-left: 10px"> Sexo </legend>
+                <label for="masculino">
+                    <input type="radio" name="sexo" id="masculino" value="Masculino">Masculino</label><br>
+                <label for="feminino">
+                    <input type="radio" name="sexo" id="feminino" value="Feminino">Feminino</label>
+            </fieldset>
+                <label for="email">E-mail: <span>Utilize um E-mail Válido</span><br>
+                    <input type="email" name="email" id="email" size="30"></label><br>
+                <label for="senha">Senha: <span>Utilize letras e números</span><br>
+                    <input type="password" name="senha" id="senha" size="20"></label><br>
+                <label for="termos">
+                    <input type="checkbox" name="termosUso" id="termos" required3630d/> Eu aceito os Termos de uso</label><br>
+                <label for="note">
+                    <input type="checkbox" name="notificacoes" id="note"> Quero receber notícias</label><br>
+                    <input type="submit" name="enviar" value="Registrar" id="botao"/>
+            </form>
+    	</div>
+   	<footer>
+        Git hub - <a class="footer" href="https://github.com/FernandoOliveira03" target="blink">https://github.com/FernandoOliveira03</a><br><br>
+        Instagram - <a class="footer" href="https://www.instagram.com/fernando_oliveira0302/" target="blink">https://www.instagram.com/fernando_oliveira0302/</a>
+        <q>Made by: Fernando Oliveira &copy;</q><br>
+        <q>Date: 29/09/2018</q>
+    </footer>
+</body>
+</html>

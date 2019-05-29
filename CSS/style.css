@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    body{
+        background: #FFF;
+    }
+
+    header{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    nav{
+        box-shadow: 1px 1px 1px #cecece;
+    }
+
+    div.logo{
+        padding: 10px 0;
+        width: 100%;
+        background-color: #000;
+        font-weight: bolder;
+    }
+
+    a#logo{
+        color: #FFFFFF;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    ul#main-list{
+        background-color: #FFFFFF;
+        list-style: none;
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+        border-bottom: 1px solid #000000;
+
+    }
+
+    ul#main-list li.filho-main-list, a{
+        display: inline-block;
+        padding: 0 5px;
+        color: black;
+        font-weight: bold;
+    }/* end main header*/
+
+    /* Footer */
+
+    footer{
+        padding: 5% 10% ;  
+        background: #000;
+        color: #fff;
+    }
+
+    footer, a.footer{
+        color: #fff
+    }
+
+    q{
+        text-decoration: none;
+        display: block;
+        float: right
+    }
+
